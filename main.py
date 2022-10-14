@@ -27,7 +27,7 @@ def take_command():
         pass
     return command
 
-def run_jarvis():
+def jarvis():
     command = take_command()
     if 'play' in command:
         song = command.replace('play', '')
@@ -59,5 +59,5 @@ def run_jarvis():
 
 if __name__ == "__main__":
   while True and take_command() != "goodbye":
-    run_jarvis()
+    jarvis()
     time.sleep(10)
