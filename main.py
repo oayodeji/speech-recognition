@@ -5,6 +5,7 @@ import datetime
 import wikipedia
 import pyjokes
 import time 
+import randfacts
 
 listener = sr.Recognizer()
 engine = pyttsx3.init()
@@ -46,6 +47,8 @@ def jarvis():
         info = wikipedia.summary(person, 2)
         print(info)
         talk(info)
+    elif 'tell me fact' or 'fact' or 'say fact' in command:
+        talk(randfacts.get_fact())
     elif 'are you single' in command:
         talk('I am in a relationship with wifi')
     elif 'joke' in command:
