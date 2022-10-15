@@ -47,7 +47,7 @@ def jarvis():
         info = wikipedia.summary(person, 2)
         print(info)
         talk(info)
-    elif 'tell me fact' or 'fact' or 'say fact' in command:
+    elif 'tell me a fact' or 'fact' or 'say fact' or 'tell me something' in command:
         talk(randfacts.get_fact())
     elif 'are you single' in command:
         talk('I am in a relationship with wifi')
