@@ -63,4 +63,4 @@ def jarvis():
 if __name__ == "__main__":
   while True and take_command() != "goodbye":
     jarvis()
-    time.sleep(10)
+    time.sleep(15)
