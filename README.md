@@ -1,11 +1,3 @@
-# Speech Recognition
-
-In order to run the code please make sure all Prerequisites are;
-#### Prerequisites
-    pip install -r requirements.txt
-
-adme
-
 # Voice Assistant - Simple Speech Recognition
 
 Welcome to the Simple Speech Recognition repository. This project provides a straightforward implementation of a voice assistant, similar to Siri but called Jarvis, that uses speech recognition to perform commands.
@@ -18,7 +10,8 @@ In order to run the code please sure all Prerequisities are installed;
 ## Prerequisites
 
 Before running the project, ensure that all prerequisites are installed. The necessary Python packages can be installed from the `requirements.txt` file using pip:
-pip install -r requirements.txt
+    
+    pip install -r requirements.txt
 
 ## Usage
 
