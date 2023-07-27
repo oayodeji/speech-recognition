@@ -1,4 +1,5 @@
-e
+# Speech Recognition
+
 In order to run the code please make sure all Prerequisites are;
 #### Prerequisites
     pip install -r requirements.txt
